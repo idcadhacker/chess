@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  <div id="container">
+    <h2>Generátor šachovnice</h2>
+    <label for="rows">Počet řádků:</label>
+    <input type="number" id="rows" min="1">
+    <label for="columns">Počet sloupců:</label>
+    <input type="number" id="columns" min="1">
+    <button onclick="generateChessboard()">Generovat</button>
+
+    <div id="chessboard"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

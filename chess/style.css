@@ -1,0 +1,23 @@
+#container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #chessboard {
+    display: inline-block;
+  }
+  
+  .square {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+  }
+  
+  .white {
+    background-color: white;
+  }
+  
+  .black {
+    background-color: black;
+  }
+  
